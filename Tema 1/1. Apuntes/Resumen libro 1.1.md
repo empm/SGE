@@ -3,22 +3,18 @@ Esquema de Palabras Clave
    - Integración de procesos empresariales
    - Módulos: Finanzas, Recursos Humanos, Ventas, Producción
    - Ejemplos: SAP, Oracle ERP
-
 2. Sistemas CRM (Customer Relationship Management)
    - Gestión de relaciones con clientes
    - Módulos: Ventas, Servicio al Cliente, Marketing
    - Ejemplos: Salesforce, Microsoft Dynamics CRM
-
 3. Soluciones de BI (Business Intelligence)
    - Toma de decisiones basada en datos
    - Análisis de datos, informes y visualización
    - Ejemplos: Power BI, Tableau, QlikView
-
 4. Beneficios
    - Mejora de la eficiencia operativa
    - Optimización de procesos empresariales
    - Mejora en la toma de decisiones
-
 5. Desafíos
    - Costos de implementación
    - Resistencia al cambio organizacional
@@ -195,35 +191,187 @@ Los archivos maestros son fundamentales en un ERP, ya que contienen toda la info
 
 ### Códigos: productos, clientes y proveedores
 
-
-  
-
-
+- No siempre la denominación y codificación de la empresa es la misma que conocen los clientes.
+- Es por eso que el ERP debe facilitar la posibilidad de introducir para clientes o proveedores de interés, la codificación y denominación de los artículos que compra o vende.
 
 
+#### Tablas básicas
+
+Las tablas básicas incluyen:
+1. **Tablas de Clientes**: Contienen los datos de los clientes, como su nombre, identificación fiscal, direcciones, condiciones de pago, etc.
+2. **Tablas de Proveedores**: Guardan la información sobre los proveedores, incluyendo datos de contacto, productos que suministran, términos de pago y condiciones comerciales.
+3. **Tablas de Productos**: Describen los productos o servicios que la empresa maneja, con detalles como códigos de producto, descripciones, precios, unidades de medida, y niveles de inventario.
+4. **Tablas de Empleados**: Incluyen datos sobre el personal de la empresa, como nombre, puesto, horario, salario, entre otros.
+
+Estas tablas son cruciales porque sirven como base para todas las transacciones y procesos que se ejecutan dentro del sistema ERP, garantizando que la información esté centralizada y actualizada.
+
+
+#### Compras
+
+Este módulo facilita la gestión completa del ciclo de compras, desde la solicitud inicial hasta la recepción de los bienes. Los elementos clave del apartado incluyen:
+1. **Solicitud de Compra**: El proceso empieza con la creación de una solicitud interna, donde se especifican los productos o servicios necesarios.
+2. **Selección de Proveedores**: Una vez recibida la solicitud, el sistema ERP permite seleccionar proveedores en función de la disponibilidad, precio y condiciones comerciales previamente establecidas en las tablas maestras.
+3. **Orden de Compra**: Tras elegir al proveedor, se genera una orden de compra que se envía automáticamente al proveedor. El ERP registra la cantidad, el precio, las fechas de entrega y otros detalles relevantes.
+4. **Recepción de Bienes**: Al recibir los productos, el sistema actualiza automáticamente el inventario y verifica que las cantidades y condiciones de los bienes recibidos coincidan con lo solicitado.
+5. **Factura de Proveedor**: El módulo permite la gestión de las facturas recibidas, vinculándolas con las órdenes de compra y recepción de mercancías, facilitando así el proceso de pago.
+
+Este proceso integrado reduce los errores, agiliza las operaciones y permite a la empresa mantener un control detallado de sus adquisiciones.
+
+
+#### Ventas
+
+Este módulo cubre desde la creación de cotizaciones hasta la entrega del producto y la facturación. Los elementos principales incluyen:
+
+1. **Cotización de Ventas**: El proceso inicia con la generación de una cotización basada en los productos o servicios que un cliente solicita. El ERP permite definir precios, descuentos y plazos de entrega.
+2. **Confirmación de Pedido**: Una vez aceptada la cotización, se genera un pedido de ventas que registra todos los detalles, como productos, cantidades, precios y condiciones de entrega.
+3. **Entrega del Producto**: El módulo coordina la logística de la entrega del producto, actualizando los niveles de inventario en tiempo real y asegurando que el pedido se complete según lo pactado.
+4. **Facturación**: Después de la entrega, se genera automáticamente una factura que se envía al cliente, permitiendo un seguimiento de pagos y cuentas por cobrar.
+
+El sistema ERP optimiza y automatiza el flujo de ventas, lo que facilita el control de cada etapa del proceso y mejora la eficiencia en la gestión de pedidos y la relación con los clientes.
 
 
 
+#### Fabricación
+
+El módulo de fabricación permite planificar, ejecutar y controlar todo el ciclo productivo, asegurando que se cumplan las órdenes de producción de manera eficiente. Los puntos clave son:
+1. **Planificación de la Producción**: El ERP permite planificar las órdenes de producción en función de la demanda de productos, los recursos disponibles y los tiempos de entrega.
+2. **Gestión de Materiales**: El sistema gestiona el aprovisionamiento de materias primas y componentes necesarios para la fabricación, actualizando los niveles de inventario en tiempo real.
+3. **Control de Producción**: Permite monitorizar el avance de las órdenes de producción, asegurando que los productos se fabriquen según las especificaciones y plazos establecidos.
+4. **Gestión de la Calidad**: Incluye herramientas para realizar controles de calidad en cada etapa del proceso productivo, garantizando que los productos cumplen con los estándares requeridos.
+
+
+En el apartado de **fabricación** del ERP, se mencionan tres elementos clave para gestionar la producción:
+
+1. **Lista de Materiales (BOM - Bill of Materials)**:
+   - La **Lista de Materiales** es un listado detallado que incluye todos los componentes, materias primas y subproductos necesarios para fabricar un producto. Esta lista define las cantidades exactas de cada componente requerido, asegurando que los materiales estén disponibles para el proceso de fabricación.
+
+2. **Código de Cada Componente**:
+   - Cada componente de la lista de materiales tiene un **código único** que lo identifica dentro del sistema ERP. Este código facilita el seguimiento y la gestión de los inventarios, permitiendo que el sistema actualice automáticamente los niveles de stock y registre el uso de materiales durante la producción.
+
+3. **Hoja de Ruta (Routing)**:
+   - La **Hoja de Ruta** es un plan detallado que especifica los pasos o procesos que se deben seguir para fabricar un producto. Indica las operaciones que deben realizarse, los centros de trabajo involucrados, el tiempo necesario para cada tarea, y el orden en el que se deben completar las actividades de fabricación.
+
+Estos elementos permiten gestionar y automatizar el proceso de producción de manera eficiente, garantizando que los materiales correctos estén disponibles y que cada etapa de la fabricación siga un flujo adecuado.
+
+
+### Servicios:
+
+Las empresas basadas en servicios (soporte técnico, consultoría, gestión, etc.) requieren un **módulo de servicios** dentro del ERP que les permita:
+- **Definir** el servicio en fases, horas de operación y asignación de operadores, además de los materiales necesarios.
+- **Monitorear** el uso de horas y materiales en cada fase.
+- **Controlar costos** en servicios a largo plazo para detectar desviaciones respecto al presupuesto original.
+
+### Contabilidad y Finanzas:
+
+Este módulo es más complejo de implementar sin conocimientos especializados. 
+
+- Proporciona las funcionalidades básicas relacionadas con el manejo de archivos maestros, compras, ventas, producción, soporte y servicios. 
+- Se recomienda que los programadores adapten el ERP según las necesidades de la empresa y desarrollen módulos específicos. 
+- Para obtener información útil, las empresas pueden usar herramientas de BI y es necesario tener al menos conocimientos mínimos en contabilidad para cubrir las demandas de la empresa en este campo.
 
 
 ---
-*Todo:*
-1.1 Libro
-- #sistemas-erp
-	- #codigos-de-producto-y-clientes
-	- #tablas-basicas
-	- #compras/stock
-	- #ventas
-	- #fabricacion 
-	- #servicios
-		- #soporte
-		- #consultoria
-	- #Contabilidad-finanzas
-- #sistemas-crm-y-BI
-	- #funcionalidades-crm
-	- #caracteristicas-bi 
 
-1.0 Licencias
+### Resumen: La leyenda de la implementación del ERP
+
+La expresión **"si funciona, no lo toques"** refleja la resistencia que muchas empresas tienen al cambiar su software de gestión empresarial (ERP), ya sea por miedo a errores o por falta de un ERP adecuado.
+
+Las **10 causas comunes de fracaso** en la implementación de un ERP incluyen:
+1. Objetivos mal definidos.
+2. Expectativas demasiado altas.
+3. Presupuesto insuficiente.
+4. Actividades preparatorias deficientes.
+5. Personal no capacitado.
+6. Pronósticos de uso irreales.
+7. Falta de metodología clara.
+8. Requerimientos incompletos.
+9. Falta de apoyo de líderes.
+10. Mala gestión de relaciones interpersonales.
+
+Además, se enfatiza que la **implantación de un ERP** va más allá del trabajo técnico. 
+Los líderes deben adoptar buenas prácticas y tener un enfoque claro desde el principio para evitar problemas comunes y asegurar una correcta implementación.
+
+
+---
+
+# Sistemas CRM y soluciones BI
+
+  - ERP  
+     - Procesos integrados  
+     - Finanzas, RH, Ventas, Producción  
+     - SAP, Oracle  
+   - CRM  
+     - Relación con el cliente  
+     - Ventas, Servicio, Marketing  
+     - Salesforce, Microsoft Dynamics  
+   - BI  
+     - Decisiones basadas en datos  
+     - Análisis, Visualización  
+     - Power BI, Tableau  
+
+## Funcionalidades CRM
+
+CRM se utiliza para dos conceptos:
+1. CRM como estrategia de negocio de la empresa enfocada hacia al cliente objetivo (conocer al cliente, detectar sus necesidades, aumentar la satisfacción, lealtad, aumento de rentabilidad...)
+2. CRM como sistema informático diseñado para que la empresa pueda gestionar los aspectos relacionados con la gestión de sus clientes.
+
+(Usaremos la segunda)
+
+### Módulos de un sistema CRM
+
+1. Módulo de cliente
+2. Lead Module
+3. Módulo de Contacto
+4. Módulo de producto
+5. Módulo de soporte
+6. Módulo de informes y gráficos
+
+Se puede ampliar con:
+
+7. Módulo de cotización
+8. Módulo de gestión de pedidos de ventas
+9. Móduclo de gestión de pedidos de entrega
+10. Módulo de facturación
+
+
+## Características de Bi
+
+Profundiza en la información de la organización con el objetivo de generar escenarios, previsiones e informes que se facilitan a aquellos que toman decisiones.
+#### Áreas más comunes:
+- Ventas
+- Marketing
+- Finanzas
+- Fabricación
+
+#### Jerarquía de toma de decisiones
+- **Estratégico**: en el que la directiva decide el camino que debe seguir la organización.
+- **Tácticas**: en la que se organiza y planifica las áreas de la empresa junto a los responsables de las áreas comunes.
+- **Operacional**: en el que se ejecutan las operaciones diarias de la organización (ventas, fabricación, contabilidad y finanzas).
+
+Los diferentes niveles (roles) tienen distintas necesidades de acceso a los datos.
+Un gerente general no tiene por que saber como se introduce una oferta de cliente en el sistema, pero si debería saber si se están logrando los objetivos.
+
+Se requieren herramientas informáticas para preparar informes adecuado a cada nivel.
+
+![[Pasted image 20240927212553.png]]
+
+
+![[Pasted image 20240927212650.png]]
+
+
+| SIstemas OLTP BD         | Fecha del almacén                                  |
+| ------------------------ | -------------------------------------------------- |
+| Datos operacionales      | Datos empresariales relevantes para la información |
+| Orientado a aplicaciones | Orientado al analista                              |
+| Datos actuales           | Datos actuales + datos históricos                  |
+| Datos comerciales        | Datos resumidos con cierto detalle                 |
+| Cambio constante         | Establo                                            |
+
+OLAP es el acrónimo de *OnLine Analytical Processing*, se refiere a sistemas que almacenan grandes cantidades de datos resumidos, obtenidos de sistemas OLTP, con el objetivo de realizar consultas.
+
+---
+*Todo:*
+- [ ] 1.2 Licencias
 - #cuando
 - #que 
 - #como 
