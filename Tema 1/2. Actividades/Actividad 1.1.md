@@ -1,8 +1,13 @@
+> El objetivo de esta actividad es identificar las licencias Open Source más utilizadas.
+> 
+> Visita la página web del portal de Open Source Initiative que recoge las licencias reconocidas por Open SourceInitiative como licencias de código abierto y haga una recopilación y lectura de las licencias más populares y ampliamente utilizadas.
+
+---
 Las 10 licencias más populares de código abierto, reconocidas por la **Open Source Initiative (OSI)**, son las siguientes:
 
 1. **MIT License**
    - Muy permisiva, permite casi cualquier cosa con el software, mientras se incluya una copia del aviso de derechos de autor y la licencia original.
-   - - **Node.js**: Plataforma popular para ejecutar aplicaciones JavaScript en el servidor.
+   - **Node.js**: Plataforma popular para ejecutar aplicaciones JavaScript en el servidor.
    - **Ruby on Rails**: Un framework de desarrollo web muy utilizado.
    - **jQuery**: Una de las bibliotecas JavaScript más conocidas.
 
@@ -28,12 +33,10 @@ Las 10 licencias más populares de código abierto, reconocidas por la **Open So
    - **FreeBSD**: Sistema operativo de código abierto derivado de BSD Unix.
    - **OpenBSD**: Sistema operativo basado en seguridad, derivado también de BSD.
 
-
 6. **BSD 2-Clause License (Simplified BSD)**
    - Similar a la BSD de 3 cláusulas, pero con aún menos restricciones, omitiendo la cláusula de publicidad.
    - **NetBSD**: Otro sistema operativo de la familia BSD.
    - **libpng**: Una biblioteca para manejar archivos de imagen PNG.
-
 
 7. **Mozilla Public License 2.0**
    - Una licencia de copyleft débil, que permite combinar el código fuente bajo MPL con otro software con licencias diferentes.
