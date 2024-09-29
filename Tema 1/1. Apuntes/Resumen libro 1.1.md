@@ -370,7 +370,7 @@ Se requieren herramientas informáticas para preparar informes adecuado a cada n
 OLAP es el acrónimo de *OnLine Analytical Processing*, se refiere a sistemas que almacenan grandes cantidades de datos resumidos, obtenidos de sistemas OLTP, con el objetivo de realizar consultas.
 
 ---
-*Todo:*
+*To-do:*
 - [ ] 1.2 Licencias
 - #cuando
 - #que 
@@ -390,4 +390,3 @@ OLAP es el acrónimo de *OnLine Analytical Processing*, se refiere a sistemas qu
 - #OEM
 - #retail
 - #volumen
-  
