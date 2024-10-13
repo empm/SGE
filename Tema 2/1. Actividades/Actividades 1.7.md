@@ -1,0 +1,20 @@
+# Actividad 1.7 Conceptos y funcionalidades alrededor de una solución BI
+
+> El objetivo de esta actividad es conocer conceptos y funcionalidades alrededor de las soluciones BI.
+
+> Llene la siguiente tabla con la descripción de los conceptos indicados:
+
+| Concepto                                              | Descripción                                                                                                                                                                                                        |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Inteligencia de negocio (BI)                          | Centrar los esfuerzos en el conocimiento de los clientes detectando así sus necesidades para incrementar su satisfacción, fidelidad y beneficios.                                                                   |
+| OLTP                                                  | Procesos de transacciones en línea.                                                                                                                                                                                 |
+| Repositorio de una solución BI                       | Lugar donde BI centraliza y almacena los datos. Existen de varios tipos, data warehouse y cubos OLAP.                                                                                                               |
+| Data warehouse (almacén de datos)                    | Es la base para herramientas analíticas, se orienta a un ámbito, está integrada, ya que contiene datos de todos los orígenes, no se elimina y es auditable.                                                         |
+| ETL                                                   | Proceso de filtrado, reestructuración de los datos y eliminación de inconsistencias antes de ser almacenado.                                                                                                        |
+| Data mart (escaparate de datos)                       | Subconjunto de datos del Data Warehouse que se enfoca en un área en concreto.                                                                                                                                       |
+| Ejemplos de herramientas analíticas de soluciones BI | Son estas herramientas que miden la potencia de Bi.<br>Como query&reporting, que realiza consultas e informes.                                                                                                      |
+| Data mining (minería de datos)                       | Minería de datos. Prepara, sondea y explora los datos para obtener información oculta.                                                                                                                              |
+| KPI                                                   | Son indicadores Clave del desempeño. Se dice que no se puede mejorar lo que no se puede medir, por lo que usan métricas que se usan para cuantificar el rendimiento de la organización.                             |
+| dashboard                                             | Es un panel el cual proporciona información específica del estado de una empresa.<br>			- Muestra la realidad de las áreas de negocio<br>			- Usa los KPI<br>			- Alerta cuando un indicador baja del nivel normal. |
+| OLAP                                                  | OLAP es el proceso analítico en línea, se refiere a sistemas que almacenan grandes cantidades de datos (big data).                                                                                                  |
+| Cubos multidimensionales o cubos OLAP o hipercubo     | Hace referencia a las herramientas disponibles para evaluar y analizar los datos. Éstos datos se representa en forma de matriz.                                                                                     |

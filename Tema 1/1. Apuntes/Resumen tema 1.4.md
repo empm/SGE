@@ -1,4 +1,5 @@
 # Sistemas CRM y BI
+
 > Un CRM es un sistema que se enfoca en mejorar la gestión de las relaciones con los clientes. Optimizando áreas como ventas, marketing y atención al cliente. 
 
 ## Resumen de los sistemas de gestión empresarial
